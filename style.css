@@ -117,14 +117,13 @@ header{
     width:78px;
 }
 .logo-image img{
-    height:350px;
-    width:400px;
-    margin-bottom:50px;
+    width:407px;
+    margin-bottom:30px;
 }
 
 .logo-sec{
     background:rgb(230, 227, 227);
-    padding:25px;
+    padding:15px;
     margin-bottom:20px;
     border-radius:10px;
     box-shadow:5px 5px 3px rgba(128,128,128, 0.75);  
