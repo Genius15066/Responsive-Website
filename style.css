@@ -79,15 +79,17 @@ header{
 
 .shoe-card-casual,.shoe-card-formal{
     box-shadow:10px 10px 10px rgba(0, 0, 0, 0.15);
-    border-radius:10px;
     background:#F1F1F1;
+    border: 1 px solid black;
+    border-radius: 10px;
 }
 
 .shoe-card-casual img{
     height:300px;
     width:95%;
-
-
+}
+.shoe-card-casual img{
+    border-radius: 10px;
 }
 .shoe-type{
     font-family:'Bebas Neue', cursive;
@@ -125,9 +127,9 @@ header{
     padding:25px;
     margin-bottom:20px;
     border-radius:10px;
-    box-shadow:5px 5px 3px rgba(128,128,128, 0.75);
-   
+    box-shadow:5px 5px 3px rgba(128,128,128, 0.75);  
 }
+
 
 
 /* customer review starts */
@@ -137,15 +139,15 @@ header{
     color:black;
 }
 .customer-shadow{
-    transition: .4s;
     border-radius:10px;
     box-shadow: 2px 6px 5px darkgray;
+    transition: .4s;
 
 }
 .customer-shadow:hover{
-  transform: scale(1.1,1.15);
-  box-shadow: 2px 6px 5px darkgray;
+    transform: scale(1.1,1.15);
 }
+
 
 /* contact section */
 
